@@ -6,7 +6,7 @@
             "methods": [
                 "get"
             ],
-            "route": "users"
+            "route": "users/"
         },
         {
             "type": "http",
