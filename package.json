@@ -1,0 +1,8 @@
+{
+    "name": "lightning talk",
+    "version": "0.0.0",
+    "private": true,
+    "dependencies": {
+        "request-promise": "~4.2.0"
+    }
+}
