@@ -1,7 +1,7 @@
 {
     "name": "lightningtalk",
     "version": "0.25.7",
-    "description": "east region lightning ",
+    "description": "east region lightning talk on functions/proxies/versioning",
     "private": true,
     "dependencies": {
         "request": "^2.81.0",

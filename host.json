@@ -3,3 +3,4 @@
         "routePrefix": ""
     }
 }
+// adjust this file to have any route prefixes i.e. : www.yourapp.com/api/function -- where 'api' is the route prefix
