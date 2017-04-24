@@ -1,15 +1,10 @@
 ﻿var rp = require('request-promise');
 
 module.exports = function(context, req) {
-
-    var inputId = context.bindingData.id;
-    context.log('Looking for user %s', inputId);
+    context.log('All Users');
 
     var options = {
-        uri: 'https://jsonplaceholder.typicode.com/users/' + inputId,
-        headers: {
-            'User-Agent': 'Request-Promise'
-        },
+        uri: 'https://jsonplaceholder.typicode.com/users/',
         json: true
     };
 
@@ -20,9 +15,9 @@ module.exports = function(context, req) {
     };
 
     rp(options)
-        .then(function(user) {
-            context.log('Found user %s', user);
-            response.body = user;
+        .then(function(users) {
+            context.log('Found %s users', users.length);
+            response.body = users;
         })
         .catch(function(err) {
             context.log('Danger Will Robinson! Error=%s', err);

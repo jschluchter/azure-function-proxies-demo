@@ -4,6 +4,7 @@
     "description": "east region lightning ",
     "private": true,
     "dependencies": {
+        "request": "^2.81.0",
         "request-promise": "^4.2.0"
     },
     "author": "joey schluchter",
