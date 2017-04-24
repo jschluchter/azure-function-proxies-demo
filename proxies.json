@@ -1,0 +1,22 @@
+{
+    "proxies": {
+        "UsersGetById-v1": {
+            "matchCondition": {
+                "methods": [
+                    "GET"
+                ],
+                "route": "/v1/users/{id}"
+            },
+            "backendUri": "https://lighttalk.azurewebsites.net/users/{id}"
+        },
+        "UsersGetById-v2": {
+            "matchCondition": {
+                "methods": [
+                    "GET"
+                ],
+                "route": "/v2/users/{id}"
+            },
+            "backendUri": "https://jsonplaceholder.typicode.com/users/{id}"
+        }
+    }
+}
