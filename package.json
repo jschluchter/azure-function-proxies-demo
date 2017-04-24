@@ -1,8 +1,11 @@
 {
-    "name": "lightning talk",
-    "version": "0.0.0",
+    "name": "lightningtalk",
+    "version": "0.25.7",
+    "description": "east region lightning ",
     "private": true,
     "dependencies": {
-        "request-promise": "~4.2.0"
-    }
+        "request-promise": "^4.2.0"
+    },
+    "author": "joey schluchter",
+    "license": "ISC"
 }
