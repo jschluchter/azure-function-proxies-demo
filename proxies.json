@@ -9,6 +9,15 @@
             },
             "backendUri": "https://lighttalk.azurewebsites.net/users/{id}"
         },
+        "UsersGet-v1": {
+            "matchCondition": {
+                "methods": [
+                    "GET"
+                ],
+                "route": "/v2/users/"
+            },
+            "backendUri": "https://jsonplaceholder.typicode.com/users/"
+        },
         "UsersGetById-v2": {
             "matchCondition": {
                 "methods": [
